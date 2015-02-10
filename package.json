@@ -1,0 +1,21 @@
+{
+  "name": "ab-stringutil",
+  "version": "0.0.1",
+  "description": "JavaScript String utils",
+  "main": "index.js",
+  "keywords": [
+    "javascript",
+    "string",
+    "util"
+  ],
+  "license": "MIT",
+  "author": "Antonio Brandao <antoniobrandaodesign@gmail.com> (http://www.antoniobrandao.com/)",
+  "homepage": "https://github.com/antoniobrandao/ab-stringutil",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoniobrandao/ab-stringutil"
+  },
+  "bugs": {
+    "url": "https://github.com/antoniobrandao/ab-stringutil/issues"
+  }
+}
