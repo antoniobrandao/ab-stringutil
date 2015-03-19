@@ -11,6 +11,13 @@ module.exports = {
     removeFileExtension: function(string)
     {
         var re = /(.*)\.[^.]+$/;
-    	return re.test(string);
+        return re.test(string);
+    }
+
+    capitalizeEachWord: function(string)
+    {
+        return str.replace(/\w\S*/g, function(txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        });
     }
 }
