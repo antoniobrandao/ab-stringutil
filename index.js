@@ -1,5 +1,9 @@
 'use strict';
 
+String.prototype.capitalize = function(normalise) {
+    return (normalise ? this.toLowerCase() : this).replace(/(?:^|\s)\S/g, function(a) { return a.toUpperCase(); });
+};
+
 module.exports = {
 
     isEmail: function(string)
